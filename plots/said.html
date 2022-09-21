@@ -1,0 +1,126 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="https://cdn.plot.ly/plotly-latest.min.js"></script></head>
+   <body>
+      <div id="myDiv" style="width: 700px; height: 600px;"></div><script>
+                        
+                        
+                        
+                        var trace1 = {
+                        
+                        x: [
+                            '1a parte'
+                            ,
+                            '2a parte'
+                            ,
+                            '3a parte'
+                            ,
+                            '4a parte'
+                            ,
+                            '5a parte'
+                            ],
+                        
+                        y: [6502,119,7266,0,10612],
+                        
+                        name: 'discurso directo (marcado)',
+                        
+                        type: 'bar'
+                        
+                        };
+                        
+                        
+                        
+                        var trace2 = {
+                        
+                        x: [
+                            '1a parte'
+                            ,
+                            '2a parte'
+                            ,
+                            '3a parte'
+                            ,
+                            '4a parte'
+                            ,
+                            '5a parte'
+                            ],
+                        
+                        y: [61234,29906,44268,133042,106117],
+                        
+                        name: 'otro texto',
+                        
+                        type: 'bar'
+                        
+                        };
+                        
+                        
+                        var data = [trace1, trace2];
+                        
+                        
+                        var layout = {
+                            barmode: 'stack',
+                            yaxis: {title: "número de tokens"},
+                            font: {size: 16},
+                            annotations: [
+                                
+                                    {
+                                    
+                                    x: -0.2,
+                                    y: 6502,
+                                    text: "10%",
+                                    showarrow: false,
+                                    xanchor: "left",
+                                    yanchor: "bottom",
+                                    font: {size: 16}
+                                    }
+                                    ,
+                                    {
+                                    
+                                    x: 0.8,
+                                    y: 119,
+                                    text: "1%",
+                                    showarrow: false,
+                                    xanchor: "left",
+                                    yanchor: "bottom",
+                                    font: {size: 16}
+                                    }
+                                    ,
+                                    {
+                                    
+                                    x: 1.8,
+                                    y: 7266,
+                                    text: "15%",
+                                    showarrow: false,
+                                    xanchor: "left",
+                                    yanchor: "bottom",
+                                    font: {size: 16}
+                                    }
+                                    ,
+                                    {
+                                    
+                                    x: 2.8,
+                                    y: 0,
+                                    text: "0%",
+                                    showarrow: false,
+                                    xanchor: "left",
+                                    yanchor: "bottom",
+                                    font: {size: 16}
+                                    }
+                                    ,
+                                    {
+                                    
+                                    x: 3.8,
+                                    y: 10612,
+                                    text: "10%",
+                                    showarrow: false,
+                                    xanchor: "left",
+                                    yanchor: "bottom",
+                                    font: {size: 16}
+                                    }
+                                    
+                            ]
+                            };
+                        
+                        
+                        Plotly.newPlot('myDiv', data, layout);
+                    </script></body>
+</html>
