@@ -1,4 +1,4 @@
-# Datos del análisis estilístico computacional de la estética literaria en la novela de 2666 de Roberto Bolaño.
+# Datos del análisis estilístico computacional de la estética literaria en la novela de 2666 de Roberto Bolaño
 
 Este repositorio contiene datos y scripts para un análisis estilístico computacional de la estética literaria en la novela de 2666 de Roberto Bolaño. El análisis se presentó en las siguientes ocasiones:
 
